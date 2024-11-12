@@ -1,6 +1,8 @@
 # Regulatory Insights Dashboard
 
-https://github.com/user-attachments/assets/732698ea-d458-466c-83f3-83feed03a338
+<div align="center">
+<video width="60%" max-width="800px" src="https://github.com/user-attachments/assets/732698ea-d458-466c-83f3-83feed03a338"></video>
+</div>
 
 ## Project Overview
 
