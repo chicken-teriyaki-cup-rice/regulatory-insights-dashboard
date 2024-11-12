@@ -283,7 +283,6 @@ const MarketMovementsTable = () => {
               <thead className="bg-gray-100">
                 <tr>
                   <th className="p-4 text-left border-b text-lg">Index/ETF</th>{" "}
-                  {/* Increased padding and text size */}
                   <th className="p-4 text-left border-b text-lg">
                     Movement Range
                   </th>
@@ -298,7 +297,6 @@ const MarketMovementsTable = () => {
                     <tr key={index} className="hover:bg-gray-50">
                       <td className="p-4 border-b text-base font-medium">
                         {" "}
-                        {/* Increased padding and text size */}
                         {impact.index}
                       </td>
                       <td className="p-4 border-b text-base">
