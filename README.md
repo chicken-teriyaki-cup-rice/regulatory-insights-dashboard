@@ -1,6 +1,6 @@
 # Regulatory Insights Dashboard
 
-![Market Analysis Dashboard]
+https://github.com/user-attachments/assets/732698ea-d458-466c-83f3-83feed03a338
 
 ## Project Overview
 
