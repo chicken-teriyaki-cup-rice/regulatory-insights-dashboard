@@ -216,7 +216,7 @@ const MarketMovementsTable = () => {
                       regulatoryData[selectedCategory].cpiImpacts
                         .netContribution.min
                     }
-                    % to{" "}
+                    % to
                     {
                       regulatoryData[selectedCategory].cpiImpacts
                         .netContribution.max
@@ -282,7 +282,7 @@ const MarketMovementsTable = () => {
             <table className="w-full border-collapse bg-white shadow-sm rounded-lg">
               <thead className="bg-gray-100">
                 <tr>
-                  <th className="p-4 text-left border-b text-lg">Index/ETF</th>{" "}
+                  <th className="p-4 text-left border-b text-lg">Index/ETF</th>
                   <th className="p-4 text-left border-b text-lg">
                     Movement Range
                   </th>
@@ -296,7 +296,6 @@ const MarketMovementsTable = () => {
                   (impact, index) => (
                     <tr key={index} className="hover:bg-gray-50">
                       <td className="p-4 border-b text-base font-medium">
-                        {" "}
                         {impact.index}
                       </td>
                       <td className="p-4 border-b text-base">
@@ -344,7 +343,7 @@ const MarketMovementsTable = () => {
                           regulatoryData[selectedCategory].cpiImpacts
                             .primarySectors[0].range.min
                         }
-                        % to{" "}
+                        % to
                         {
                           regulatoryData[selectedCategory].cpiImpacts
                             .primarySectors[0].range.max
@@ -379,7 +378,7 @@ const MarketMovementsTable = () => {
                           regulatoryData[selectedCategory].cpiImpacts
                             .primarySectors[1].range.min
                         }
-                        % to{" "}
+                        % to
                         {
                           regulatoryData[selectedCategory].cpiImpacts
                             .primarySectors[1].range.max
@@ -418,7 +417,7 @@ const MarketMovementsTable = () => {
                           regulatoryData[selectedCategory].cpiImpacts
                             .netContribution.min
                         }
-                        % to{" "}
+                        % to
                         {
                           regulatoryData[selectedCategory].cpiImpacts
                             .netContribution.max
