@@ -121,7 +121,15 @@ const MarketMovementsTable = () => {
           select a category
         </div>
         <select
-          className="p-3 text-lg border rounded w-full bg-gray-100 hover:bg-gray-200 transition-colors cursor-pointer"
+          className="p-3 text-lg border rounded w-full bg-gray-100 hover:bg-gray-200 transition-colors cursor-pointer appearance-none"
+          style={{
+            WebkitAppearance: "none",
+            backgroundImage: `url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e")`,
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "right 0.75rem center",
+            backgroundSize: "1em",
+            paddingRight: "2.5rem",
+          }}
           value={selectedCategory}
           onChange={(e) => setSelectedCategory(e.target.value)}
         >
