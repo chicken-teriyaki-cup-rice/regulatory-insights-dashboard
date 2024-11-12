@@ -1,0 +1,317 @@
+{
+  "immigrationRestrictions": {
+    "title": "Immigration Restrictions (2017)",
+    "period": "2017",
+    "impacts": [
+      {
+        "index": "S&P 500",
+        "movement": { "min": 0.5, "max": 1.2 },
+        "direction": "positive",
+        "timing": "6-8 months",
+        "volume": "1.5x average"
+      },
+      {
+        "index": "NASDAQ",
+        "movement": { "min": -2, "max": -3 },
+        "direction": "negative",
+        "timing": "3-4 months",
+        "volume": "2x average"
+      },
+      {
+        "index": "Agricultural ETFs",
+        "movement": { "min": -1.5, "max": -2.5 },
+        "direction": "negative",
+        "timing": "4-6 months",
+        "volume": "1.8x average"
+      }
+    ],
+    "cpiImpacts": {
+      "primarySectors": [
+        {
+          "name": "Agricultural Products",
+          "range": { "min": 0.4, "max": 0.8 },
+          "drivers": [
+            "Labor cost increases",
+            "Reduced workforce",
+            "Higher produce prices"
+          ]
+        },
+        {
+          "name": "Food Services",
+          "range": { "min": 0.3, "max": 0.5 },
+          "drivers": ["Increased labor costs", "Higher operational expenses"]
+        }
+      ],
+      "netContribution": { "min": 0.2, "max": 0.3 },
+      "duration": "6-8 months"
+    }
+  },
+  "environmentalDeregulation": {
+    "title": "Environmental Deregulation (2017-2018)",
+    "period": "2017-2018",
+    "impacts": [
+      {
+        "index": "S&P Energy Sector",
+        "movement": { "min": 8, "max": 12 },
+        "direction": "positive",
+        "timing": "8-10 months",
+        "volume": "2.5x average"
+      },
+      {
+        "index": "Clean Energy ETFs",
+        "movement": { "min": -5, "max": -7 },
+        "direction": "negative",
+        "timing": "6-8 months",
+        "volume": "2x average"
+      },
+      {
+        "index": "XLE",
+        "movement": { "min": 10, "max": 15 },
+        "direction": "positive",
+        "timing": "8-12 months",
+        "volume": "3x average"
+      }
+    ],
+    "cpiImpacts": {
+      "primarySectors": [
+        {
+          "name": "Energy",
+          "range": { "min": -0.3, "max": -0.5 },
+          "drivers": [
+            "Lower compliance costs",
+            "Increased domestic production",
+            "Reduced energy prices"
+          ]
+        },
+        {
+          "name": "Transportation",
+          "range": { "min": -0.2, "max": -0.3 },
+          "drivers": ["Lower fuel costs", "Reduced shipping expenses"]
+        }
+      ],
+      "netContribution": { "min": -0.15, "max": -0.25 },
+      "duration": "8-12 months"
+    }
+  },
+  "corporateTaxCuts": {
+    "title": "Corporate Tax Cuts (2018-2019)",
+    "period": "2018-2019",
+    "impacts": [
+      {
+        "index": "S&P 500",
+        "movement": { "min": 12, "max": 15 },
+        "direction": "positive",
+        "timing": "12-15 months",
+        "volume": "2x average"
+      },
+      {
+        "index": "Russell 2000",
+        "movement": { "min": 15, "max": 18 },
+        "direction": "positive",
+        "timing": "10-12 months",
+        "volume": "2.5x average"
+      },
+      {
+        "index": "Financial Sector",
+        "movement": { "min": 14, "max": 16 },
+        "direction": "positive",
+        "timing": "8-10 months",
+        "volume": "3x average"
+      }
+    ],
+    "cpiImpacts": {
+      "primarySectors": [
+        {
+          "name": "Consumer Goods",
+          "range": { "min": -0.2, "max": -0.3 },
+          "drivers": ["Increased corporate margins", "Price reductions"]
+        },
+        {
+          "name": "Services",
+          "range": { "min": -0.1, "max": -0.2 },
+          "drivers": ["Business expansion", "Competitive pricing"]
+        }
+      ],
+      "netContribution": { "min": -0.1, "max": -0.2 },
+      "duration": "12-15 months"
+    }
+  },
+  "abortionAccess": {
+    "title": "Abortion Access Changes (2022-2024)",
+    "period": "2022-2024",
+    "impacts": [
+      {
+        "index": "IHF Healthcare Providers",
+        "movement": { "min": 3, "max": 5 },
+        "direction": "positive",
+        "timing": "3-4 months",
+        "volume": "2x average"
+      },
+      {
+        "index": "Regional Healthcare",
+        "movement": { "min": 4, "max": 7 },
+        "direction": "positive",
+        "timing": "4-6 months",
+        "volume": "1.8x average"
+      },
+      {
+        "index": "Travel ETFs",
+        "movement": { "min": 2, "max": 4 },
+        "direction": "positive",
+        "timing": "2-3 months",
+        "volume": "1.5x average"
+      }
+    ],
+    "cpiImpacts": {
+      "primarySectors": [
+        {
+          "name": "Healthcare Services",
+          "range": { "min": 0.2, "max": 0.4 },
+          "drivers": ["Regional price variations", "Travel-related costs"]
+        },
+        {
+          "name": "Medical Insurance",
+          "range": { "min": 0.1, "max": 0.2 },
+          "drivers": ["Coverage adjustments", "Regional cost differences"]
+        }
+      ],
+      "netContribution": { "min": 0.1, "max": 0.2 },
+      "duration": "3-4 months"
+    }
+  },
+  "transHealthcare": {
+    "title": "Trans Healthcare Restrictions (Projected)",
+    "period": "Projected",
+    "impacts": [
+      {
+        "index": "XLV Healthcare",
+        "movement": { "min": -2, "max": -4 },
+        "direction": "negative",
+        "timing": "6-8 months",
+        "volume": "1.8x average"
+      },
+      {
+        "index": "Pharmacy Retailers",
+        "movement": { "min": -3, "max": -5 },
+        "direction": "negative",
+        "timing": "4-6 months",
+        "volume": "2x average"
+      },
+      {
+        "index": "Insurance Providers",
+        "movement": { "min": -1, "max": -3 },
+        "direction": "negative",
+        "timing": "3-4 months",
+        "volume": "1.5x average"
+      }
+    ],
+    "cpiImpacts": {
+      "primarySectors": [
+        {
+          "name": "Healthcare Services",
+          "range": { "min": 0.3, "max": 0.5 },
+          "drivers": [
+            "Increased specialized care costs",
+            "Insurance adjustments"
+          ]
+        },
+        {
+          "name": "Pharmaceuticals",
+          "range": { "min": 0.2, "max": 0.3 },
+          "drivers": ["Supply chain disruptions", "Coverage changes"]
+        }
+      ],
+      "netContribution": { "min": 0.2, "max": 0.3 },
+      "duration": "6-8 months"
+    }
+  },
+  "planBBan": {
+    "title": "Plan B Ban (Projected)",
+    "period": "Projected",
+    "impacts": [
+      {
+        "index": "Consumer Staples XLP",
+        "movement": { "min": -3, "max": -5 },
+        "direction": "negative",
+        "timing": "4-6 months",
+        "volume": "2x average"
+      },
+      {
+        "index": "Pharmacy Sector",
+        "movement": { "min": -4, "max": -6 },
+        "direction": "negative",
+        "timing": "3-4 months",
+        "volume": "2.5x average"
+      },
+      {
+        "index": "Distribution Networks",
+        "movement": { "min": -2, "max": -4 },
+        "direction": "negative",
+        "timing": "2-3 months",
+        "volume": "1.8x average"
+      }
+    ],
+    "cpiImpacts": {
+      "primarySectors": [
+        {
+          "name": "Pharmaceuticals",
+          "range": { "min": 0.3, "max": 0.4 },
+          "drivers": ["Supply restrictions", "Alternative product demand"]
+        },
+        {
+          "name": "Healthcare Services",
+          "range": { "min": 0.2, "max": 0.3 },
+          "drivers": ["Increased medical visits", "Alternative care costs"]
+        }
+      ],
+      "netContribution": { "min": 0.2, "max": 0.3 },
+      "duration": "3-4 months"
+    }
+  },
+  "tariffs": {
+    "title": "Proposed Tariffs (Projected)",
+    "period": "Projected",
+    "impacts": [
+      {
+        "index": "Consumer Discretionary",
+        "movement": { "min": -5, "max": -7 },
+        "direction": "negative",
+        "timing": "6-8 months",
+        "volume": "2.2x average"
+      },
+      {
+        "index": "Retail Sector",
+        "movement": { "min": -6, "max": -8 },
+        "direction": "negative",
+        "timing": "4-6 months",
+        "volume": "2.5x average"
+      },
+      {
+        "index": "Import-Heavy Companies",
+        "movement": { "min": -8, "max": -12 },
+        "direction": "negative",
+        "timing": "3-4 months",
+        "volume": "3x average"
+      }
+    ],
+    "cpiImpacts": {
+      "primarySectors": [
+        {
+          "name": "Consumer Goods",
+          "range": { "min": 0.8, "max": 1.2 },
+          "drivers": [
+            "Direct import cost increases",
+            "Supply chain adjustments"
+          ]
+        },
+        {
+          "name": "Retail",
+          "range": { "min": 0.6, "max": 0.9 },
+          "drivers": ["Inventory cost increases", "Reduced import competition"]
+        }
+      ],
+      "netContribution": { "min": 0.6, "max": 0.8 },
+      "duration": "6-8 months"
+    }
+  }
+}
