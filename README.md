@@ -1,4 +1,4 @@
-# Regulatory Insights Dashboard
+# Analyzing Market Movements & CPI Impacts from Regulatory Changes
 
 <div align="center">
 <video width="60%" max-width="800px" src="https://github.com/user-attachments/assets/732698ea-d458-466c-83f3-83feed03a338"></video>
